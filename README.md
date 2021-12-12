@@ -3,7 +3,7 @@ Simple XRPL Dex price bot for discord
 
 To Run Script:
 
-1. Install Node JS and NPM:
+1. Install Node JS and NPM (minimum version 16.x):
 
         (https://nodejs.org/en/download/)
         
