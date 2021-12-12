@@ -30,7 +30,7 @@ To Run Script:
 6. Create a new file in the XRPL-Discord-Price-Bot directory called ".env" and add the following contents, replacing the 2 variables with your bot token and server ID
 
         DISCORD_BOT_TOKEN=*****YOUR BOT TOKEN HERE******
-        DISCORD_SERVER_ID=*****DISCORD SERVICE ID HERE*****
+        DISCORD_SERVER_ID=*****DISCORD SERVER ID HERE*****
         
 7. Invite your bot to the server of your choice with an authorize link below. Replace [***ClientID***] with your application Client ID you generated in discord
 
