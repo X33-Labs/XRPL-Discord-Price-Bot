@@ -10,7 +10,7 @@ const TOKEN_CURRENCY_NAME = 'PARC'; //Name of currency
 const TOKEN_CURRENCY = '5041524300000000000000000000000000000000'; //40 character 160 bit hex currency code
 const TOKEN_ISSUER = 'rE42R1mbjGtMzzFTL5aqpbTrj3TDVq71jo'; //Token Issuer
 const AVATAR_URL = 'https://secure.gravatar.com/avatar/cdee4d5018167873d2b108d9600627b6?d=mm&s=173'; //Avatar URL
-const UPDATE_FREQUENCY = 30; //Update Frequence in seconds
+const UPDATE_FREQUENCY = 240; //Update Frequence in seconds
 //*************************************************************** */
 
 var token = {
@@ -73,7 +73,7 @@ client.on('ready', () => {
   client.user.setAvatar(AVATAR_URL)
   myinterval = setInterval(function(){
     priceUpdate()
-  }, UPDATE_FREQUENCY * 30)
+  }, UPDATE_FREQUENCY * 1000)
 })
 
 client.login(process.env.DISCORD_BOT_TOKEN)
