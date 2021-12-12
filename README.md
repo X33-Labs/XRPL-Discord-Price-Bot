@@ -15,9 +15,9 @@ To Run Script:
 
         npm install
         
-3. Create a new application and bot on discord. Make note of the bot token.
+4. Create a new application and bot on discord. Make note of the bot token.
 
-4. Open index.js in VS Code or Notepad and change the setting variables at the top of the file:
+5. Open index.js in VS Code or Notepad and change the setting variables at the top of the file:
 
         //******************* REPLACE THESE VARIABLES *********************/
         const TOKEN_CURRENCY_NAME = 'PARC'; //Name of currency
@@ -27,19 +27,16 @@ To Run Script:
         const UPDATE_FREQUENCY = 30; //Update Frequence in seconds
         //*************************************************************** */
 
-5. Create a new file in the XRPL-Discord-Price-Bot directory called ".env" and add the following contents, replacing the 2 variables with your bot token and server ID
+6. Create a new file in the XRPL-Discord-Price-Bot directory called ".env" and add the following contents, replacing the 2 variables with your bot token and server ID
 
         DISCORD_BOT_TOKEN=*****YOUR BOT TOKEN HERE******
         DISCORD_SERVER_ID=*****DISCORD SERVICE ID HERE*****
         
-6. Invite your bot to the server of your choice with an authorize link below. Replace [***ClientID***] with your application Client ID you generated in discord
+7. Invite your bot to the server of your choice with an authorize link below. Replace [***ClientID***] with your application Client ID you generated in discord
 
         https://discord.com/api/oauth2/authorize?client_id=[***ClientID HERE***]&permissions=0&scope=bot%20applications.commands
         
-6. Open a command prompt, powershell or terminal window. Navigate to the script folder and issue the npm install command:
 
-        npm install
-
-3. Start the script:
+8. Start the script:
 
         node index.js
