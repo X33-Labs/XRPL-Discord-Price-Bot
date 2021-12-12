@@ -32,10 +32,9 @@ To Run Script:
         DISCORD_BOT_TOKEN=*****YOUR BOT TOKEN HERE******
         DISCORD_SERVER_ID=*****DISCORD SERVICE ID HERE*****
         
-6. Invite your bot to the server of your choice with an authorize link: 
-https://discord.com/api/oauth2/authorize?client_id=[***ClientID HERE***]&permissions=0&scope=bot%20applications.commands
+6. Invite your bot to the server of your choice with an authorize link below. Replace [***ClientID***] with your application Client ID you generated in discord
 
-        Replace [***ClientID***] with your application Client ID you generated in discord
+        https://discord.com/api/oauth2/authorize?client_id=[***ClientID HERE***]&permissions=0&scope=bot%20applications.commands
         
 6. Open a command prompt, powershell or terminal window. Navigate to the script folder and issue the npm install command:
 
