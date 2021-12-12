@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "xrpl": "^2.0.4"
+  }
+}
